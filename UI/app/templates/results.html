@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+	<h2>Similarity Image Text</h2>
+
+<div>
+	<img src={{filename}} alt="image" >
+</div>
+
+	<p>Text : {{ text }}</p>
+
+	<p>Similarity : {{ score }}</p>
+
+{% endblock %}
