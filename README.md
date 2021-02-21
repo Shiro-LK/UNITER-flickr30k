@@ -44,6 +44,6 @@ inside the container :
 
 then write the text and select the image in the UI you want to compare. (The image need to be inside the folder UI/app/static/images)
 
-![image](images/img0.jpeg)
+![image](images/image0.jpeg)
 
 
