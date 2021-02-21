@@ -25,8 +25,13 @@ Step to launch the deployment:
 clone repo :
 
 > git clone https://github.com/Shiro-LK/UNITER-flickr30k
+> cd UNITER-flickr30k
+pretrained weights : > https://drive.google.com/file/d/1vDkCSzUdM3Lrns-E2eK64V1xkV4ThuC8/view?usp=sharing
 
-pretrained weights : https://drive.google.com/file/d/1vDkCSzUdM3Lrns-E2eK64V1xkV4ThuC8/view?usp=sharing
+and put the weights inside : UNITER-flickr30K/UI
+
+
+
 
 
 build :
