@@ -14,16 +14,20 @@ A naive deployment has been implemented in this repo with Flask. The finetuned w
 
 ## Requirement
 - ubuntu 18.04
-- nvidia-driver installed (tested with version 450)
+- nvidia-driver installed (tested with version 450) : https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#package-manager-installation
 - cuda 10.1
-
+- nvidia docker : https://github.com/NVIDIA/nvidia-docker#quickstart
 
 Step to launch the deployment:
+
 
 ## Launch Docker
 clone repo :
 
 > git clone https://github.com/Shiro-LK/UNITER-flickr30k
+
+pretrained weights : https://drive.google.com/file/d/1vDkCSzUdM3Lrns-E2eK64V1xkV4ThuC8/view?usp=sharing
+
 
 build :
 > docker build -t uniter-deployment .
@@ -40,6 +44,6 @@ inside the container :
 
 then write the text and select the image in the UI you want to compare. (The image need to be inside the folder UI/app/static/images)
 
-![image](images/img0.jpg)
+![image](images/img0.jpeg)
 
 
