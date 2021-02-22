@@ -5,8 +5,8 @@ One gpu has been used for the finetuning, the hyper-parameters chosen where ther
 The results obtained are : 
 |           | R1         | 
 | ------------- |:-------------:| 
-| Text      | 79 | 
-| Image      |  64     | 
+| Text      | 81 | 
+| Image      |  66     | 
 
 
 A naive deployment has been implemented in this repo with Flask. The finetuned weights is in the folder UI.
@@ -16,6 +16,7 @@ A naive deployment has been implemented in this repo with Flask. The finetuned w
 - ubuntu 18.04
 - nvidia-driver installed (tested with version 450) : https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#package-manager-installation
 - cuda 10.1
+- docker >= 19.03
 - nvidia docker : https://github.com/NVIDIA/nvidia-docker#quickstart
 
 Step to launch the deployment:
@@ -30,7 +31,8 @@ clone repo :
 > cd UNITER-flickr30k
 
 pretrained weights : 
-> https://drive.google.com/file/d/1vDkCSzUdM3Lrns-E2eK64V1xkV4ThuC8/view?usp=sharing
+> https://drive.google.com/file/d/1s2OFoH8wT8EK_XZuWbsnNVUTezJFwQ-K/view?usp=sharing
+
 
 and put the weights inside : UNITER-flickr30K/UI
 
